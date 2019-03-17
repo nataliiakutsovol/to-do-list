@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <form id="form-add-todo" class="col-lg-6 form-add-todo">
+    <h1>What is your focus for today?</h1>
+    <div class="form-group input-group mt-3">
+      <input type="text" id="new-todo-item" class="form-control new-todo-item" name="todo" />
+      <div class="input-group-append">
+      <button type="submit" id="add-todo-item" class="btn add-todo-item" value="add the todo">+</button>
+      </div>
+    </div>
+      <ul id="todo-list" class="sortable todo-list"></ul>
+  </form>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
